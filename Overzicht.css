@@ -13,6 +13,15 @@ body {
 }
 
 header {
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+    flex-grow: 1;
         background-color: white;
         margin: 0 auto;
         padding: 1em;
@@ -52,6 +61,11 @@ aside {
   min-width: 10em;
 
   margin-top: 2rem;
+}
+
+.container1>img {
+
+margin-top: 2rem;
 }
 
 article {
@@ -111,6 +125,14 @@ flex-direction: column;
 
   box-sizing: border-box;
   padding: 2em;
+}
+}
+
+@media (max-width: 90em) {
+
+ .container1>img{
+     display: none;
+
 }
 }
 
