@@ -9,9 +9,55 @@
 
 <body>
 
- <h1>Aanmeldpagina</h1>
+
+  </body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Overzichtpagina</title>
+        <link rel="stylesheet" type="text/css" href="Overzicht.css">
+    </head>
+<body>
+<main>
+<header>
+    <img src="img/logo.png" alt="DFDS logo" height="100" width="175">
+    <h1><a href="Overzichtpagina.html"></a>DFDS verhalen</h1>
+        <a href="Overzichtpagina.html">Home</a>
+</header>
+
+
+
+
+  <section>
+
+     <div class="registreren">
+      <fieldset>
+
+   <form id="LogIn">
+   <h1>Log In</h1>
+    <label>Email
+        <input id="email" name="email" type="email" placeholder="...@....com" required>
+        </label>
+        <label>Wachtwoord
+        <input id="ww" name="wachtwoord" type="text" required>
+        </label>
+         <button type="button">Log in</button>
+          </form>
+      </fieldset>
+      </div>
+
+
+
+
+       <div class="registreren">
+
   <fieldset>
    <form id="registreren">
+        <h1>Registreren</h1>
 
         <label>Voornaam
         <input id="given-name" name="given-name" type="text" placeholder="Naam" required>
@@ -33,7 +79,7 @@
         </label>
 
         <label>Adres (straat en huisnummer)
-        <textarea id="address" name="address" rows=5 required></textarea>
+        <input id="postCode" name="postCode" type="text" required>
         </label>
 
 
@@ -41,10 +87,20 @@
         <input id="postCode" name="postCode" type="text" required>
         </label>
 
+        <label>Wachtwoord
+        <input id="ww" name="wachtwoord" type="text" required>
+        </label>
+        <button type="button">Registreren</button>
+</form>
 
 
-  </form>
+
   </fieldset>
-  </body>
+  </div>
 
+    </section>
+
+</body>
+</main>
 </html>
+
